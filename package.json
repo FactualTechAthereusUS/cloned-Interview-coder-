@@ -17,7 +17,7 @@
     "package-win-portable": "npm run build && electron-builder build --win portable --x64"
   },
   "build": {
-    "appId": "com.chunginlee.interviewcoder",
+    "appId": "com.chunginlee.interviewcoder.original",
     "productName": "Interview Coder",
     "files": [
       "dist/**/*",
@@ -67,6 +67,22 @@
           "interview-coder"
         ]
       }
+    },
+    "dmg": {
+      "icon": "assets/icons/mac/icon.icns",
+      "iconSize": 128,
+      "contents": [
+        {
+          "x": 130,
+          "y": 220
+        },
+        {
+          "x": 410,
+          "y": 220,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
     },
     "win": {
       "target": [
