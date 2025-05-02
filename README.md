@@ -37,7 +37,7 @@ This version includes:
 - Pre-built packages for macOS (both Intel and Apple Silicon)
 - Improved error handling
 
-> **Note:** Updated application packages with the original icons are available in the GitHub Releases section of this repository.
+> **Note:** Application packages with the original icons are available in the GitHub Releases section of this repository. All traces of the Eye of Providence icon have been completely removed from the application.
 
 ### Why This Exists
 
