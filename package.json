@@ -17,8 +17,8 @@
     "package-win-portable": "npm run build && electron-builder build --win portable --x64"
   },
   "build": {
-    "appId": "com.chunginlee.interviewcoder.original",
-    "productName": "Interview Coder",
+    "appId": "org.interviewcoder.app.v2",
+    "productName": "Interview Coder Blue",
     "files": [
       "dist/**/*",
       "dist-electron/**/*",
