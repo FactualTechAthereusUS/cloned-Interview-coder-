@@ -27,14 +27,13 @@
 
 ## Free, Open-Source AI-Powered Interview Preparation Tool
 
-This custom version provides a powerful alternative to premium coding interview platforms. It includes fixes for file system permission issues and features a custom "Eye of Providence" icon. Using your own OpenAI API key, you get access to advanced features like AI-powered problem analysis, solution generation, and debugging assistance - all running locally on your machine.
+This custom version provides a powerful alternative to premium coding interview platforms. It includes fixes for file system permission issues and other improvements. Using your own OpenAI API key, you get access to advanced features like AI-powered problem analysis, solution generation, and debugging assistance - all running locally on your machine.
 
 ### Custom Modifications
 
 This version includes:
 
 - Fixed file system permission handling in the application
-- Custom "Eye of Providence" application icon
 - Pre-built packages for macOS (both Intel and Apple Silicon)
 - Improved error handling
 
